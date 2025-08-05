@@ -7,7 +7,7 @@ const Header = () => {
           <li><a href="/">Inicio</a></li>
           <li><a href="/dashboard">Dashboard</a></li>
           <li><a href="/login">Login</a></li>
-          <li><a href="/registrate">Registrate</a></li>
+          <li><a href="/register">Registrate</a></li>
           <button>Cerrar Sesion</button>
         </ul>
       </nav>
