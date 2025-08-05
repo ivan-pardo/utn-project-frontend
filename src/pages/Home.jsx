@@ -30,7 +30,7 @@ const Home = () => {
         <p>Elegi entre nuestras categorias mas populares</p>
         {/* {Seccion para carga diferida de productos} */}
         <div>
-          <p>Cargando producto...</p>
+          <p>Cargando</p>
         </div>
       </section>
     </Layout>
