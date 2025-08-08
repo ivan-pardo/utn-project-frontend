@@ -16,9 +16,11 @@ const Home = () => {
     fetchingProducts();
   }, []);
 
-  const handleDelete = (id) => {
-    console.log("Borrando " + id)
+  const handleDelete = async (id) => {
+    const response = await fetch("https://fakestoreapi.com/products", { method: "DELETE"})
+
   }
+
 
   return (
     <Layout>
