@@ -18,8 +18,9 @@ const Home = () => {
 
   const handleDelete = async (id) => {
     const response = await fetch(`https://fakestoreapi.com/products/${id}`, {method: "DELETE"});
-    console.log(response)
-    
+    if(response.ok){
+      setProducts(prevProduct => prevProduct.filter((product) => product.id != id))
+    }
   }
 
 
