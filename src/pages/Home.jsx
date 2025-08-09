@@ -17,8 +17,9 @@ const Home = () => {
   }, []);
 
   const handleDelete = async (id) => {
-    const response = await fetch("https://fakestoreapi.com/products", { method: "DELETE"})
-
+    const response = await fetch(`https://fakestoreapi.com/products/${id}`, {method: "DELETE"});
+    console.log(response)
+    
   }
 
 
